@@ -36,7 +36,7 @@ bot.command('search',async (ctx)=>{
           ctx.reply(name)
         })
       });
-      if(accounts==null) ctx.reply("No history")
+      if(accounts.length==0) ctx.reply("No history")
     })
   
   
